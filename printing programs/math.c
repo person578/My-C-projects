@@ -3,16 +3,15 @@
 
 int main() 
 {
-    float x = 3;
+    int x = 3;
 
     // x = sqrt(x);
     // x = pow(x, 4);
     // x = round(x);
     // x = ceil(x);
-    // math = sqrt(math);
-    x = log(x);
+    x = sqrt(x);
 
-    printf("%f\n", x);
+    printf("%d\n", x);
 
     return 0;
 }
