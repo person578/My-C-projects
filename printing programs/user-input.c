@@ -23,10 +23,10 @@ int main(){
     fgets(name, sizeof(name), stdin);
     name[strlen(name) - 1] = '\0';
 
-    printf("%s\n", name);
+    printf("\n%s\n", name);
     printf("%d\n", age);
     printf("%.2f\n", gpa);
-    printf("%c\n", grade);
+    printf("%c\n\n", grade);
 
     return 0;
 }
