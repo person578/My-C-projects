@@ -12,5 +12,7 @@ int main()
 
     area = PI * pow(radius, 2);
 
+    printf("Area: %lf", area);
+
     return 0;
 }
