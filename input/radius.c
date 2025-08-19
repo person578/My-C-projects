@@ -10,5 +10,7 @@ int main()
     printf("Enter the radius");
     scanf("%lf", &radius);
 
+    area = PI * pow(radius, 2);
+
     return 0;
 }
