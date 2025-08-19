@@ -7,12 +7,12 @@ int main()
     double area = 0.0;
     const double PI = 3.14159;
 
-    printf("Enter the radius");
+    printf("Enter the radius ");
     scanf("%lf", &radius);
 
     area = PI * pow(radius, 2);
 
-    printf("Area: %lf", area);
+    printf("Area: %.2lf\n", area);
 
     return 0;
 }
