@@ -14,7 +14,7 @@ int main() {
     printf("Enter the principal ");
     scanf("%lf", &principal);
 
-    printf("Enter the interest rate % ()");
+    printf("Enter the interest rate %%");
     scanf("%lf", &rate);
     rate = rate / 100;
 
@@ -25,6 +25,8 @@ int main() {
     scanf("%d", &timesCompounded);
 
     total = principal * pow(1 + rate / timesCompounded, timesCompounded * years);
+
+    printf("After %d year(s), the total will be $%.2lf", years, total);
 
     return 0;
 }
