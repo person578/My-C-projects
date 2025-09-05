@@ -3,13 +3,13 @@
 int main()
 {
 
-  int age = 12;
+  int age = 0;
 
   if(age >= 18){
     printf("You're an adult");
   }
 
-  if(age <= 18){
+  else {
     printf("You're not an adult");
   }
 
