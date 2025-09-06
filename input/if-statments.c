@@ -9,6 +9,10 @@ int main()
     printf("You're an adult");
   }
 
+  else if(age < 0){
+    printf("You have not been born yet");
+  }
+
   else {
     printf("You're not an adult");
   }
